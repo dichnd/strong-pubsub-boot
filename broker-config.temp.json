@@ -3,11 +3,16 @@
     "host": "localhost",
     "port": "2181",
     "topics": ["topic1", "topic2"],
-    "options": {
+    "consumer_options": {
       "groupId": "groupOne",
       "sessionTimeout": 15000,
       "protocol": ["roundrobin"],
       "fromOffset": "latest"
+    },
+    "producer_options": {
+      "requireAcks": 1,
+      "ackTimeoutMs": 100,
+      "partitionerType": 3
     },
     "adapter": "strong-pubsub-kafka",
     "handler": "./mainBrokerHandler"
