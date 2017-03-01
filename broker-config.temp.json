@@ -2,6 +2,7 @@
   "mainBroker": {
     "host": "localhost",
     "port": "2181",
+    "topics": ["topic1", "topic2"],
     "options": {
       "groupId": "groupOne",
       "sessionTimeout": 15000,
