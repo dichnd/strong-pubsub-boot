@@ -1,0 +1,14 @@
+{
+  "mainBroker": {
+    "host": "localhost",
+    "port": "2181",
+    "options": {
+      "groupId": "groupOne",
+      "sessionTimeout": 15000,
+      "protocol": ["roundrobin"],
+      "fromOffset": "latest"
+    },
+    "adapter": "strong-pubsub-kafka",
+    "handler": "./mainBrokerHandler"
+  }
+}
