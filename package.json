@@ -12,9 +12,19 @@
   "author": "dichnd",
   "license": "ISC",
   "dependencies": {
-    "lodash": "^4.17.4",
-    "uid-safe": "^2.1.3",
-    "strong-pubsub": "git+https://github.com/dichnd/strong-pubsub.git",
-    "strong-pubsub-kafka": "git+https://github.com/dichnd/strong-pubsub-kafka.git"
-  }
+    "lodash": "4.17.4",
+    "strong-pubsub-kafka": "^1.0.1",
+    "strong-pubsub-modify": "^1.0.1",
+    "uid-safe": "2.1.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dichnd/strong-pubsub-boot.git"
+  },
+  "maintainers": [
+    {
+      "name": "dinh.dich",
+      "email": "dichnd2806@gmail.com"
+    }
+  ]
 }
