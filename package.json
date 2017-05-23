@@ -1,6 +1,6 @@
 {
   "name": "strong-pubsub-boot",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "support config file for defined broker",
   "main": "index.js",
   "scripts": {
