@@ -3,3 +3,4 @@
  */
 module.exports.Boot = require('./lib/boot');
 module.exports.Handler = require('./lib/BrokerHandler');
+module.exports.Producer = require('./lib/Producer');
